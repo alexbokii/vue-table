@@ -1,0 +1,17 @@
+table {
+  width: 100%;
+  max-width: 100%;
+  margin-bottom: 1em;
+  border-collapse: collapse;
+  background-color: transparent;
+  text-align: left; }
+  table th {
+    padding: .75em;
+    vertical-align: top;
+    border-top: 1px solid #eceeef; }
+  table td {
+    padding: .75em;
+    vertical-align: top;
+    border-top: 1px solid #eceeef; }
+
+/*# sourceMappingURL=style.css.map */
