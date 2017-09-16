@@ -10,10 +10,10 @@
     <table id="table">
       <thead>
         <tr>
-          <th>Name</th>
-          <th>Email</th>
-          <th>Company</th>
-          <th>City</th>
+          <th v-on:click="sort('name')">Name</th>
+          <th v-on:click="sort('email')">Email</th>
+          <th v-on:click="sort('company')">Company</th>
+          <th v-on:click="sort('city')">City</th>
         </tr>
       </thead>
       <tbody>
@@ -29,6 +29,7 @@
   
   <script type="text/javascript" src="data.json"></script>
   <script type="text/javascript" src="node_modules/vue/dist/vue.js"></script>
+  <script type="text/javascript" src="scripts/utils.js"></script>
   <script type="text/javascript" src="scripts/table.js"></script>
 </body>
 </html>
